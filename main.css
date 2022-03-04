@@ -26,3 +26,33 @@
 - for hero - set color, background, and min-height with calc (subtract navbar height from 100% of the screen height)
 - for span - add color and font-size
 - for button - background and color */
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  height: 30px;
+  background-color: blue;
+}
+
+.logo {
+  font-size: medium;
+  color: turquoise;
+}
+
+.hero {
+  color: orange;
+  background: indigo;
+  min-height: calc(auto - vh 100);
+}
+
+.logo {
+  color: aquamarine;
+  font-size: medium;
+}
+
+.hero-btn {
+  background: green;
+  color: goldenrod;
+}
